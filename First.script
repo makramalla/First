@@ -1,5 +1,6 @@
-for(; "uldre" != syscall(getbutton," ");
-{}
+for (; "uldre" != syscall(getbutton," ");
+{
+    }
 
 syscall(cleardisplay, " ");
 syscall(setcursorstartx, "0"); syscall(setcursorstarty, "0");
