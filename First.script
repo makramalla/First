@@ -1,0 +1,9 @@
+for(; "uldre" != syscall(getbutton," ");
+{}
+
+syscall(cleardisplay, " ");
+syscall(setcursorstartx, "0"); syscall(setcursorstarty, "0");
+syscall (rawtext, "Hello Wprld!");
+
+for (; "uldre" == syscall (getbutton, "");)
+{}
