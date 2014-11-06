@@ -6,7 +6,7 @@ for (; "udlre" != syscall(getbutton,"");)
 
 syscall(cleardisplay, " ");
 syscall(setcursorstartx, "0"); syscall(setcursorstarty, "0");
-syscall (drawtext, "Hello Wprld!");
+syscall (drawtext, "Hello World!");
 
 for (; "udlre" == syscall (getbutton, "");)
 {}
