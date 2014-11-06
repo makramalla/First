@@ -1,6 +1,6 @@
 
 
-for (; "udlre" != syscall(getbutton," ");)
+for (; "udlre" != syscall(getbutton,"");)
 {
     }
 
